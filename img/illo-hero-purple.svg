@@ -1,0 +1,29 @@
+<svg width="471" height="278" viewBox="0 0 471 278" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<g id="Frame 10.3" clip-path="url(#clip0)">
+<g id="Vector 3">
+<path d="M 0 0C 0 0.707678 0 164.491 0 212.667C 0 220.623 3.16071 228.161 8.7868 233.787L 42.2132 267.213C 47.8393 272.839 55.4699 276 63.4264 276L 95 276M 468 276L 107.5 276" stroke-width="4" transform="translate(5 -16)" stroke="url(#paint0_linear)"/>
+</g>
+<g id="Rectangle 16.2">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M 12.1422 2L 2.00001 2L 2.00003 12.1421L 12.1421 12.1422L 12.1422 2Z" stroke-width="4" stroke-miterlimit="8" transform="matrix(0.707107 -0.707107 0.707107 0.707107 96 260)" stroke="#A847F4"/>
+</g>
+<g id="Rectangle 15.12">
+<path d="M 16.9706 0L 18.3852 18.3852L 0 16.9709" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel" transform="matrix(0.707107 -0.707107 0.707107 0.707107 219 260)" stroke="#A847F4"/>
+</g>
+</g>
+</g>
+<defs>
+
+<linearGradient id="paint0_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(468 -1.5 1.19379 372.462 -0.596897 9.76881)">
+<stop stop-color="#A847F4"/>
+<stop offset="0.632547" stop-color="#A847F4"/>
+<stop offset="0.99686" stop-color="white"/>
+</linearGradient>
+
+<clipPath id="clip0">
+<rect width="471" height="278" fill="white"/>
+</clipPath>
+
+</defs>
+</svg>
+

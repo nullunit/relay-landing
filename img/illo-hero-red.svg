@@ -1,0 +1,29 @@
+<svg width="316" height="278" viewBox="0 0 316 278" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<g id="Frame 10" clip-path="url(#clip0)">
+<g id="Rectangle 15.12">
+<path d="M 16.9706 0L 18.3852 18.3852L 0 16.9709" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel" transform="matrix(0.707107 0.707107 -0.707107 0.707107 302 208)" stroke="#F45247"/>
+</g>
+<g id="Vector 3.2">
+<path d="M 0 0L 0 28.6365C 0 36.5558 3.13126 44.1538 8.7109 49.7736L 60.7003 102.137C 66.3325 107.81 73.9957 111 81.9894 111L 143.5 111M 300 278L 300 178.585C 300 170.535 296.765 162.822 291.021 157.182L 252.753 119.597C 247.143 114.087 239.595 111 231.732 111L 173 111" stroke-width="4" transform="translate(2 0)" stroke="#F45247"/>
+</g>
+<g id="Rectangle 15.12_2">
+<path d="M 16.9706 0L 18.3852 18.3852L 0 16.9709" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel" transform="translate(21.8076 60.8081)" stroke="#F45247"/>
+</g>
+<g id="Ellipse">
+<circle cx="17" cy="17" r="15" stroke-width="4" transform="translate(143 93)" stroke="#F45247"/>
+</g>
+<g id="Ellipse_2">
+<circle cx="9" cy="9" r="7" stroke-width="4" transform="translate(151 101)" stroke="#F45247"/>
+</g>
+</g>
+</g>
+<defs>
+
+<clipPath id="clip0">
+<rect width="316" height="278" fill="white"/>
+</clipPath>
+
+</defs>
+</svg>
+

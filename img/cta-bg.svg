@@ -1,0 +1,23 @@
+<svg width="762" height="1091" viewBox="0 0 762 1091" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<g id="Frame 9" clip-path="url(#clip0)">
+<g id="Rectangle 14.10">
+<path d="M 762 0L 762 407.211L 762 1091L 0 1091L 762 0Z" fill="#FFBC3B"/>
+</g>
+<g id="Rectangle 14.11">
+<path d="M 638 0L 638 341.147L 638 914L 0 914L 638 0Z" transform="translate(124 177)" fill="#F45247"/>
+</g>
+<g id="Rectangle 14.12">
+<path d="M 396 0L 396 211.63L 396 567L 0 567L 396 0Z" transform="translate(366 524)" fill="#02B0D6"/>
+</g>
+</g>
+</g>
+<defs>
+
+<clipPath id="clip0">
+<rect width="762" height="1091" fill="white"/>
+</clipPath>
+
+</defs>
+</svg>
+

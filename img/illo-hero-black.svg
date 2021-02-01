@@ -1,0 +1,24 @@
+<svg width="79" height="278" viewBox="0 0 79 278" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<g id="Frame 10.1" clip-path="url(#clip0)">
+<g id="Rectangle 15.12">
+<path d="M 16.9706 0L 18.3852 18.3852L 0 16.9709" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel" transform="matrix(0.707107 0.707107 -0.707107 0.707107 65 113)" stroke="black"/>
+</g>
+<g id="Vector 4.2">
+<path d="M 0 0L 0 14.5736C 0 22.5301 3.16071 30.1607 8.7868 35.7868L 54.2132 81.2132C 59.8393 86.8393 63 94.4699 63 102.426L 63 278.5" stroke-width="4" transform="translate(2 0)" stroke="black"/>
+</g>
+<g id="Rectangle 16.8">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M 12.1422 2L 2.00001 2L 2.00003 12.1421L 12.1421 12.1422L 12.1422 2Z" transform="matrix(0.707107 -0.707107 0.707107 0.707107 26 60)" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M 12.1422 2L 2.00001 2L 2.00003 12.1421L 12.1421 12.1422L 12.1422 2Z" stroke-width="4" stroke-miterlimit="8" transform="matrix(0.707107 -0.707107 0.707107 0.707107 26 60)" stroke="black"/>
+</g>
+</g>
+</g>
+<defs>
+
+<clipPath id="clip0">
+<rect width="79" height="278" fill="white"/>
+</clipPath>
+
+</defs>
+</svg>
+

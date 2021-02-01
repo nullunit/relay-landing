@@ -1,0 +1,20 @@
+<svg width="15" height="15" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<g id="Frame 6" clip-path="url(#clip0)">
+<g id="Rectangle 7 (Stroke)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M 14 5.41395L 8.08124 1.18627C 7.73354 0.937911 7.26646 0.937911 6.91876 1.18627L 1 5.41395L 1 13.5422L 14 13.5422L 14 5.41395ZM 6.33752 0.372533L 0 4.89934L 0 14.5422L 15 14.5422L 15 4.89934L 8.66248 0.372533C 7.96708 -0.124178 7.03292 -0.124178 6.33752 0.372533Z" transform="translate(0 0.458008)" fill="#E08213"/>
+</g>
+<g id="Vector">
+<path d="M 7.5 8.57143L 0 4.28571L 7.5 0L 15 4.28571L 7.5 8.57143Z" transform="translate(0 1.07129)" fill="#E08213"/>
+</g>
+</g>
+</g>
+<defs>
+
+<clipPath id="clip0">
+<rect width="15" height="15" fill="white"/>
+</clipPath>
+
+</defs>
+</svg>
+
