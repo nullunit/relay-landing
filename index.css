@@ -203,7 +203,7 @@ button:hover {
 /* Section-specific */
 .what {
   background-color: #FFBC3B;
-  background-image: url(/img/hero-bg.svg);
+  background-image: url(img/hero-bg.svg);
   background-position: -50% bottom;
   background-repeat: no-repeat;
   color: #000000;
@@ -228,7 +228,7 @@ button:hover {
   padding-left: 28px;
   padding-bottom: 6px;
   text-decoration: none;
-  background: url(/img/icon-mail.svg) left 1px no-repeat;
+  background: url(img/icon-mail.svg) left 1px no-repeat;
   transition: 0.15s opacity ease-in-out;
   opacity: 0.75;
 }
@@ -308,7 +308,7 @@ button:hover {
   left: 0px;
   right: 0px;
   height: 120px;
-  background: transparent url(/img/illo-how.svg) center top no-repeat;
+  background: transparent url(img/illo-how.svg) center top no-repeat;
 }
 .how img {
   max-width: 280px;

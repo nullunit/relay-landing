@@ -159,7 +159,7 @@ button {
 
 .what {
   background-color: $color-yellow;
-  background-image: url(/img/hero-bg.svg);
+  background-image: url(img/hero-bg.svg);
   background-position: -50% bottom;
   background-repeat: no-repeat;
   color: $color-black;
@@ -177,7 +177,7 @@ button {
         padding-left: 28px;
         padding-bottom: 6px;
         text-decoration: none;
-        background: url(/img/icon-mail.svg) left 1px no-repeat;
+        background: url(img/icon-mail.svg) left 1px no-repeat;
         transition: .15s opacity ease-in-out;
         opacity: .75;
         &:hover {
@@ -231,7 +231,7 @@ button {
     left: 0px;
     right: 0px;
     height: 120px;
-    background: transparent url(/img/illo-how.svg) center top no-repeat;
+    background: transparent url(img/illo-how.svg) center top no-repeat;
   }
   img { max-width: 280px; margin-bottom: 40px;}
 }
