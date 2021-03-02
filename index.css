@@ -8,138 +8,177 @@
 /* Animation */
 @keyframes fadefirst {
   0% {
-    opacity: 0; }
+    opacity: 0;
+  }
   25% {
-    opacity: 1; }
+    opacity: 1;
+  }
   100% {
-    opacity: 1; } }
-
+    opacity: 1;
+  }
+}
 @keyframes fademid {
   0% {
-    opacity: 0; }
+    opacity: 0;
+  }
   25% {
-    opacity: 0; }
+    opacity: 0;
+  }
   50% {
-    opacity: 1; }
+    opacity: 1;
+  }
   100% {
-    opacity: 1; } }
-
+    opacity: 1;
+  }
+}
 @keyframes fadelast {
   0% {
-    opacity: 0; }
+    opacity: 0;
+  }
   50% {
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
-    opacity: 1; } }
-
+    opacity: 1;
+  }
+}
 @keyframes fadefinal {
   0% {
-    opacity: 0; }
+    opacity: 0;
+  }
   75% {
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
-    opacity: 1; } }
-
+    opacity: 1;
+  }
+}
 /* Base Layout & Style */
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 *, *:before, *:after {
   box-sizing: inherit;
-  color: inherit; }
+  color: inherit;
+}
 
 html, body {
-  background: #ffffff; }
+  background: #ffffff;
+}
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', helvetica, arial, sans-serif;
+  font-family: "Roboto", helvetica, arial, sans-serif;
   line-height: 1.6;
-  color: #000000; }
+  color: #000000;
+}
 
 #root {
   text-align: left;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 /* Section Structure */
 header {
-  /*Define Vertical Padding and container style*/ }
+  /*Define Vertical Padding and container style*/
+}
 
 section {
   width: 100%;
-  padding: 48px 0; }
+  padding: 48px 0;
+}
 
 footer {
   width: 100%;
-  padding: 48px 0; }
+  padding: 48px 0;
+}
 
 figure {
-  /*Define Vertical Padding and container style*/ }
+  /*Define Vertical Padding and container style*/
+}
 
 .margins {
   margin: 0 auto;
-  padding: 0 15px; }
+  padding: 0 15px;
+}
 
 .columns {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; }
-  .columns .column {
-    margin-top: 32px; }
-  .columns.one .column {
-    width: 100%; }
-  .columns.two .column {
-    width: 100%; }
-  .columns.three .column {
-    width: 100%; }
-  .columns.four .column {
-    width: 100%; }
+  justify-content: space-between;
+}
+.columns .column {
+  margin-top: 32px;
+}
+.columns.one .column {
+  width: 100%;
+}
+.columns.two .column {
+  width: 100%;
+}
+.columns.three .column {
+  width: 100%;
+}
+.columns.four .column {
+  width: 100%;
+}
 
 /* Basic Type & Elements */
 h1, h2, h3, h4, h5, h6, a, p, span, button, ul, li {
-  color: inherit; }
+  color: inherit;
+}
 
 h1, h2 {
-  font-family: 'Archivo', 'Roboto', helvetica, arial, sans-serif;
+  font-family: "Archivo", "Roboto", helvetica, arial, sans-serif;
   font-weight: 700;
-  line-height: 1.1; }
+  line-height: 1.1;
+}
 
 h1 span, h2 span, h3 span {
-  display: block; }
+  display: block;
+}
 
 h3, h4, h5, h6 {
-  font-family: 'Roboto', helvetica, arial, sans-serif;
+  font-family: "Roboto", helvetica, arial, sans-serif;
   font-weight: 700;
-  line-height: 1.3; }
+  line-height: 1.3;
+}
 
 h1 {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 24px; }
+  margin-bottom: 24px;
+}
 
 h2 {
   font-size: 24px;
-  margin-top: 0; }
+  margin-top: 0;
+}
 
 h3 {
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 p {
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 img {
   display: block;
   max-width: 100%;
   width: auto;
   height: auto;
-  object-fit: contain; }
+  object-fit: contain;
+}
 
 ul, li {
   margin: 0;
   padding: 0;
   list-style: none;
-  list-style-type: none; }
+  list-style-type: none;
+}
 
 /* Special Patterns */
 button {
@@ -153,101 +192,128 @@ button {
   padding: 16px 32px;
   width: 100%;
   cursor: pointer;
-  transition: .15s all ease-out;
-  border-radius: 3px; }
-  button:hover {
-    background-color: #ffffff;
-    color: #000000;
-    transition: .1s all ease-out; }
-
+  transition: 0.15s all ease-out;
+  border-radius: 3px;
+}
+button:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition: 0.1s all ease-out;
+}
 /* Section-specific */
 .what {
   background-color: #FFBC3B;
-  background-image: url(img/hero-bg.svg);
+  background-image: url(/img/hero-bg.svg);
   background-position: -50% bottom;
   background-repeat: no-repeat;
   color: #000000;
-  padding-top: 24px; }
-  .what header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 32px; }
-    .what header img {
-      width: 135;
-      height: 17px;
-      margin-top: 13px; }
-    .what header nav {
-      padding-top: 12px; }
-      .what header nav a {
-        display: block;
-        line-height: 20px;
-        padding-left: 28px;
-        padding-bottom: 6px;
-        text-decoration: none;
-        background: url(img/icon-mail.svg) left 1px no-repeat;
-        transition: .15s opacity ease-in-out;
-        opacity: .75; }
-        .what header nav a:hover {
-          opacity: 1; }
-  .what .button-lockup {
-    margin-top: 32px; }
-    .what .button-lockup button {
-      background-color: #000000;
-      color: #ffffff;
-      font-weight: 700; }
-      .what .button-lockup button:hover {
-        background-color: #02B0D6;
-        color: #ffffff;
-        transform: scale(1.03); }
-    .what .button-lockup img {
-      display: none; }
-    .what .button-lockup .logo {
-      display: none;
-      margin-top: 24px;
-      margin: 24px auto 0; }
-  .what .illo {
-    display: none; }
-    .what .illo.blue {
-      animation: fademid 2s ease-out; }
-    .what .illo.red {
-      animation: fademid 2s ease-out; }
-    .what .illo.black {
-      animation: fademid 2s ease-out; }
-    .what .illo.white {
-      animation: fademid 2s ease-out; }
-    .what .illo.purple {
-      animation: fademid 2s ease-out; }
-  .what .illo-relay {
-    animation: fadefirst 2s ease-out; }
-  .what .illo-figma {
-    animation: fademid 2s ease-out; }
-  .what .show-on-mobile {
-    display: block;
-    width: 100%; }
-  .what .content-left {
-    animation: fademid 2s ease-out; }
+  padding-top: 96px;
+}
+.what header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.what header img {
+  width: 135;
+  height: 17px;
+  margin-top: 13px;
+}
+.what header nav {
+  padding-top: 12px;
+}
+.what header nav a {
+  display: block;
+  line-height: 20px;
+  padding-left: 28px;
+  padding-bottom: 6px;
+  text-decoration: none;
+  background: url(/img/icon-mail.svg) left 1px no-repeat;
+  transition: 0.15s opacity ease-in-out;
+  opacity: 0.75;
+}
+.what header nav a:hover {
+  opacity: 1;
+}
+.what .button-lockup {
+  margin-top: 32px;
+}
+.what .button-lockup button {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 700;
+}
+.what .button-lockup button:hover {
+  background-color: #02B0D6;
+  color: #ffffff;
+  transform: scale(1.03);
+}
+.what .button-lockup img {
+  display: none;
+}
+.what .button-lockup .logo {
+  display: none;
+  margin-top: 24px;
+  margin: 24px auto 0;
+}
+.what .illo {
+  display: none;
+}
+.what .illo.blue {
+  animation: fademid 2s ease-out;
+}
+.what .illo.red {
+  animation: fademid 2s ease-out;
+}
+.what .illo.black {
+  animation: fademid 2s ease-out;
+}
+.what .illo.white {
+  animation: fademid 2s ease-out;
+}
+.what .illo.purple {
+  animation: fademid 2s ease-out;
+}
+.what .illo-relay {
+  animation: fadefirst 2s ease-out;
+}
+.what .illo-figma {
+  animation: fademid 2s ease-out;
+}
+.what .show-on-mobile {
+  display: block;
+  width: 100%;
+}
+.what .content-left {
+  animation: fademid 2s ease-out;
+}
 
 .why {
   background-color: #ffffff;
-  color: #000000; }
-  .why h3 {
-    padding-right: 25%; }
+  color: #000000;
+}
+.why h3 {
+  padding-right: 25%;
+}
 
 .how {
   position: relative;
   background-color: #ffffff;
   color: #000000;
-  padding-top: 150px; }
-  .how .illo {
-    position: absolute;
-    top: -20px;
-    left: 0px;
-    right: 0px;
-    height: 120px;
-    background: transparent url(img/illo-how.svg) center top no-repeat; }
-  .how img {
-    max-width: 280px;
-    margin-bottom: 40px; }
+  padding-top: 150px;
+}
+.how .illo {
+  position: absolute;
+  top: -20px;
+  left: 0px;
+  right: 0px;
+  height: 120px;
+  background: transparent url(/img/illo-how.svg) center top no-repeat;
+}
+.how img {
+  max-width: 280px;
+  margin-bottom: 40px;
+}
 
 .cta {
   padding-bottom: 0;
@@ -255,299 +321,430 @@ button {
   background-image: url(img/cta-bg.svg);
   background-position: -50% bottom;
   background-repeat: no-repeat;
-  color: #ffffff; }
-  .cta .margins {
-    padding: 0 25px; }
-  .cta .cta-button-group {
-    padding-bottom: 40px; }
-  .cta hgroup .kicker {
-    display: block;
-    font-weight: 700;
-    font-size: 20px;
-    color: #FFBC3B; }
-  .cta button {
-    background-color: #ffffff;
-    color: #000000;
-    font-weight: 700; }
-    .cta button:hover {
-      background-color: #FFBC3B;
-      color: #000000; }
-  .cta .pricing-table {
-    background-color: #ffffff;
-    display: block;
-    color: #000000;
-    overflow: visible;
-    border-radius: 4px; }
-    .cta .pricing-table .pricing-tier {
-      padding: 25px 20px 20px; }
-      .cta .pricing-table .pricing-tier h4 {
-        font-size: 12px;
-        color: #626262;
-        font-weight: 100;
-        text-transform: uppercase;
-        letter-spacing: 0.5pt;
-        margin: 0 0 10px; }
-      .cta .pricing-table .pricing-tier h3 {
-        margin: 0;
-        font-size: 28px;
-        line-height: 32px; }
-        .cta .pricing-table .pricing-tier h3 span {
-          display: inline;
-          font-size: 16px;
-          line-height: 32px; }
-      .cta .pricing-table .pricing-tier p {
-        font-size: 14px;
-        line-height: 36px;
-        margin: 0; }
-      .cta .pricing-table .pricing-tier .plan-description {
-        display: flex;
-        justify-content: space-between; }
-      .cta .pricing-table .pricing-tier.tier-limited {
-        margin-left: -10px;
-        margin-right: -10px;
-        padding: 20px;
-        background-color: #ffffff;
-        box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-        border-top: 10px solid #02B0D6; }
-        .cta .pricing-table .pricing-tier.tier-limited h4 {
-          color: #02B0D6; }
-  .cta .team-plans {
-    margin: 0;
-    margin-top: 60px;
-    text-align: center;
-    padding: 20px 15px;
-    background: #222222; }
-    .cta .team-plans h3 {
-      margin-bottom: 0; }
-    .cta .team-plans p {
-      margin-top: 10px; }
-      .cta .team-plans p a {
-        border-bottom: 1px solid transparent;
-        display: inline-block;
-        color: #02B0D6;
-        text-decoration: none; }
-        .cta .team-plans p a:hover {
-          border-bottom: 1px solid #02B0D6; }
+  color: #ffffff;
+}
+.cta .margins {
+  padding: 0 25px;
+}
+.cta .cta-button-group {
+  padding-bottom: 40px;
+}
+.cta hgroup .kicker {
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFBC3B;
+}
+.cta button {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 700;
+}
+.cta button:hover {
+  background-color: #FFBC3B;
+  color: #000000;
+}
+.cta .pricing-table {
+  background-color: #ffffff;
+  display: block;
+  color: #000000;
+  overflow: visible;
+  border-radius: 4px;
+}
+.cta .pricing-table .pricing-tier {
+  padding: 25px 20px 20px;
+}
+.cta .pricing-table .pricing-tier h4 {
+  font-size: 12px;
+  color: #626262;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.5pt;
+  margin: 0 0 10px;
+}
+.cta .pricing-table .pricing-tier h3 {
+  margin: 0;
+  font-size: 28px;
+  line-height: 32px;
+}
+.cta .pricing-table .pricing-tier h3 span {
+  display: inline;
+  font-size: 16px;
+  line-height: 32px;
+}
+.cta .pricing-table .pricing-tier p {
+  font-size: 14px;
+  line-height: 36px;
+  margin: 0;
+}
+.cta .pricing-table .pricing-tier .plan-description {
+  display: flex;
+  justify-content: space-between;
+}
+.cta .pricing-table .pricing-tier.tier-limited {
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-top: 10px solid #02B0D6;
+}
+.cta .pricing-table .pricing-tier.tier-limited h4 {
+  color: #02B0D6;
+}
+.cta .team-plans {
+  margin: 0;
+  margin-top: 60px;
+  text-align: center;
+  padding: 20px 15px;
+  background: #222222;
+}
+.cta .team-plans h3 {
+  margin-bottom: 0;
+}
+.cta .team-plans p {
+  margin-top: 10px;
+}
+.cta .team-plans p a {
+  border-bottom: 1px solid transparent;
+  display: inline-block;
+  color: #02B0D6;
+  text-decoration: none;
+}
+.cta .team-plans p a:hover {
+  border-bottom: 1px solid #02B0D6;
+}
 
 footer {
-  background-color: #000000; }
-  footer a img {
-    margin: 0 auto; }
+  background-color: #000000;
+}
+footer a img {
+  margin: 0 auto;
+}
+
+.relay-down {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #F45247;
+  text-align: center;
+}
+.relay-down h3 {
+  font-size: 16px;
+  line-height: 2;
+  color: #fff;
+}
 
 @media screen and (min-width: 640px) {
   h1 {
-    font-size: 64px; }
+    font-size: 64px;
+  }
+
   h2 {
-    font-size: 32px; }
+    font-size: 32px;
+  }
+
   h3 {
-    font-size: 24px; }
+    font-size: 24px;
+  }
+
   section {
-    padding: 96px 0; }
+    padding: 96px 0;
+  }
+
   .margins {
     padding: 0;
-    width: 600px; }
+    width: 600px;
+  }
+
   .what {
     background-position: 300px bottom;
-    padding: 48px 0; }
-    .what .margins {
-      position: relative; }
-    .what header {
-      margin-bottom: 64px; }
-      .what header img {
-        width: 270px;
-        height: 34px;
-        margin-top: 0; }
-    .what .description {
-      max-width: 450px;
-      margin-top: 48px; }
-    .what .button-lockup {
-      position: relative;
-      display: flex;
-      justify-content: flex-start; }
-      .what .button-lockup img {
-        margin: 0 0 0 5px; }
-  .cta {
-    background-position: 300px bottom; }
-    .cta .margins {
-      padding: 0; }
-    .cta .pricing-table .pricing-tier {
-      padding: 30px 30px 20px; }
-      .cta .pricing-table .pricing-tier h4 {
-        font-size: 12px;
-        margin-bottom: 20px; }
-      .cta .pricing-table .pricing-tier h3 {
-        font-size: 32px; }
-        .cta .pricing-table .pricing-tier h3 span {
-          font-size: 20px; }
-      .cta .pricing-table .pricing-tier p {
-        font-size: 16px; }
-      .cta .pricing-table .pricing-tier.tier-limited {
-        padding: 30px; }
-    .cta .team-plans {
-      margin-top: 100px; } }
+    padding: 128px 0 48px;
+  }
+  .what .margins {
+    position: relative;
+  }
+  .what header {
+    margin-bottom: 64px;
+  }
+  .what header img {
+    width: 270px;
+    height: 34px;
+    margin-top: 0;
+  }
+  .what .description {
+    max-width: 450px;
+    margin-top: 48px;
+  }
+  .what .button-lockup {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .what .button-lockup img {
+    margin: 0 0 0 5px;
+  }
 
+  .cta {
+    background-position: 300px bottom;
+  }
+  .cta .margins {
+    padding: 0;
+  }
+  .cta .pricing-table .pricing-tier {
+    padding: 30px 30px 20px;
+  }
+  .cta .pricing-table .pricing-tier h4 {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .cta .pricing-table .pricing-tier h3 {
+    font-size: 32px;
+  }
+  .cta .pricing-table .pricing-tier h3 span {
+    font-size: 20px;
+  }
+  .cta .pricing-table .pricing-tier p {
+    font-size: 16px;
+  }
+  .cta .pricing-table .pricing-tier.tier-limited {
+    padding: 30px;
+  }
+  .cta .team-plans {
+    margin-top: 100px;
+  }
+}
 @media screen and (min-width: 960px) {
   h1 {
     font-size: 70px;
-    margin-bottom: 48px; }
+    margin-bottom: 48px;
+  }
+
   h2 {
-    font-size: 50px; }
+    font-size: 50px;
+  }
+
   h3 {
-    font-size: 30px; }
+    font-size: 30px;
+  }
+
   p {
-    font-size: 20px; }
+    font-size: 20px;
+  }
+
   .margins {
     padding: 0;
-    width: 950px; }
+    width: 950px;
+  }
+
   .columns {
     display: flex;
-    flex-wrap: wrap; }
-    .columns .column {
-      margin-bottom: 0; }
-    .columns.two .column {
-      width: 48%; }
-    .columns.three .column {
-      width: 30%; }
-    .columns.three h3 {
-      font-size: 24px; }
-    .columns.three p {
-      font-size: 16px; }
-    .columns.four .column {
-      width: 22%; }
+    flex-wrap: wrap;
+  }
+  .columns .column {
+    margin-bottom: 0;
+  }
+  .columns.two .column {
+    width: 48%;
+  }
+  .columns.three .column {
+    width: 30%;
+  }
+  .columns.three h3 {
+    font-size: 24px;
+  }
+  .columns.three p {
+    font-size: 16px;
+  }
+  .columns.four .column {
+    width: 22%;
+  }
+
   button {
-    width: auto; }
+    width: auto;
+  }
+
   .what {
-    padding: 48px 0 96px;
-    background-position: right bottom; }
-    .what .button-lockup img {
-      display: block; margin: 0 0 0 32px; }
-    .what .show-on-mobile {
-      display: none; }
-    .what .illo {
-      display: block;
-      margin: 0;
-      position: absolute; }
-      .what .illo.blue {
-        display: block;
-        right: 280px;
-        top: 6px; }
-      .what .illo.red {
-        right: 150px;
-        top: -90px; }
-      .what .illo.white {
-        right: -150px;
-        bottom: -140px; }
-      .what .illo.black {
-        right: -150px;
-        top: -80px; }
-      .what .illo.purple {
-        right: -400px;
-        bottom: -180px; }
-      .what .illo.illo-primary {
-        position: absolute;
-        width: 660px;
-        height: 445px;
-        right: -300px;
-        top: 60px; }
-        .what .illo.illo-primary .illo-figma {
-          top: 55px;
-          left: 0px;
-          transition: left 0.15s ease; }
-        .what .illo.illo-primary .illo-relay {
-          top: 20px;
-          left: 80px;
-          transition: left 0.15s ease; }
-        .what .illo.illo-primary:hover .illo-figma {
-          left: 10px; }
-        .what .illo.illo-primary:hover .illo-relay {
-          left: 20px; }
-    .what .content-left {
-      animation: fadefinal 1.75s ease-out; }
+    padding: 128px 0 96px;
+    background-position: right bottom;
+  }
+  .what .button-lockup img {
+    display: block;
+  }
+  .what .show-on-mobile {
+    display: none;
+  }
+  .what .illo {
+    display: block;
+    margin: 0;
+    position: absolute;
+  }
+  .what .illo.blue {
+    display: block;
+    right: 280px;
+    top: 6px;
+  }
+  .what .illo.red {
+    right: 150px;
+    top: -90px;
+  }
+  .what .illo.white {
+    right: -150px;
+    bottom: -140px;
+  }
+  .what .illo.black {
+    right: -150px;
+    top: -80px;
+  }
+  .what .illo.purple {
+    right: -400px;
+    bottom: -180px;
+  }
+  .what .illo.illo-primary {
+    position: absolute;
+    width: 660px;
+    height: 445px;
+    right: -300px;
+    top: 60px;
+  }
+  .what .illo.illo-primary .illo-figma {
+    top: 55px;
+    left: 0px;
+    transition: left 0.15s ease;
+  }
+  .what .illo.illo-primary .illo-relay {
+    top: 20px;
+    left: 80px;
+    transition: left 0.15s ease;
+  }
+  .what .illo.illo-primary:hover .illo-figma {
+    left: 10px;
+  }
+  .what .illo.illo-primary:hover .illo-relay {
+    left: 20px;
+  }
+  .what .content-left {
+    animation: fadefinal 1.75s ease-out;
+  }
+
   .how {
-    padding-top: 200px; }
-    .how .illo {
-      background-position: -15px bottom; }
-    .how img {
-      margin-bottom: 60px; }
+    padding-top: 200px;
+  }
+  .how .illo {
+    background-position: -15px bottom;
+  }
+  .how img {
+    margin-bottom: 60px;
+  }
+
   .cta {
     background-color: #000000;
     background-position: right bottom;
-    color: #ffffff; }
-    .cta hgroup .kicker {
-      display: block;
-      font-size: 30px;
-      line-height: 50px; }
-    .cta .cta-button-group {
-      display: flex;
-      justify-content: flex-start;
-      padding-bottom: 100px; }
-      .cta .cta-button-group p {
-        line-height: 50px;
-        margin: 0;
-        padding-left: 0; }
-    .cta .pricing-table {
-      display: flex;
-      justify-content: center;
-      margin: 0; }
-      .cta .pricing-table .pricing-tier {
-        width: 33.33%;
-        margin: 0;
-        padding: 25px 30px 20px; }
-        .cta .pricing-table .pricing-tier h4 {
-          font-size: 12px;
-          margin-bottom: 20px; }
-        .cta .pricing-table .pricing-tier h3 {
-          font-size: 48px;
-          line-height: 48px; }
-          .cta .pricing-table .pricing-tier h3 span {
-            font-size: 20px; }
-        .cta .pricing-table .pricing-tier p {
-          font-size: 18px;
-          font-weight: 100;
-          color: #626262;
-          margin-top: 10px; }
-        .cta .pricing-table .pricing-tier .plan-description {
-          display: block;
-          margin-bottom: 5px; }
-        .cta .pricing-table .pricing-tier.tier-limited {
-          padding: 25px 30px 30px;
-          margin: 0;
-          margin-top: -15px;
-          margin-bottom: -15px; }
-          .cta .pricing-table .pricing-tier.tier-limited h3 {
-            font-size: 64px; }
-    .cta .team-plans {
-      width: 100%;
-      text-align: center; } }
-
+    color: #ffffff;
+  }
+  .cta hgroup .kicker {
+    display: block;
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .cta .cta-button-group {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 100px;
+  }
+  .cta .cta-button-group p {
+    line-height: 50px;
+    margin: 0;
+    padding-left: 0;
+  }
+  .cta .pricing-table {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  .cta .pricing-table .pricing-tier {
+    width: 33.33%;
+    margin: 0;
+    padding: 25px 30px 20px;
+  }
+  .cta .pricing-table .pricing-tier h4 {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .cta .pricing-table .pricing-tier h3 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .cta .pricing-table .pricing-tier h3 span {
+    font-size: 20px;
+  }
+  .cta .pricing-table .pricing-tier p {
+    font-size: 18px;
+    font-weight: 100;
+    color: #626262;
+    margin-top: 10px;
+  }
+  .cta .pricing-table .pricing-tier .plan-description {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .cta .pricing-table .pricing-tier.tier-limited {
+    padding: 25px 30px 30px;
+    margin: 0;
+    margin-top: -15px;
+    margin-bottom: -15px;
+  }
+  .cta .pricing-table .pricing-tier.tier-limited h3 {
+    font-size: 64px;
+  }
+  .cta .team-plans {
+    width: 100%;
+    text-align: center;
+  }
+}
 @media screen and (min-width: 1440px) {
   .margins {
     padding: 0;
-    width: 1200px; }
+    width: 1200px;
+  }
+
   .what {
-    background-position: right bottom; }
-    .what .show-on-mobile {
-      display: none; }
-    .what .illo {
-      display: block;
-      margin: 0;
-      position: absolute; }
-      .what .illo.blue {
-        right: 470px;
-        top: 6px; }
-      .what .illo.red {
-        right: 400px;
-        top: -90px; }
-      .what .illo.white {
-        right: 60px;
-        bottom: -140px; }
-      .what .illo.black {
-        right: 200px;
-        top: -80px; }
-      .what .illo.purple {
-        right: -200px;
-        bottom: -180px; }
-      .what .illo.illo-primary {
-        right: -100px;
-        top: 60px; } }
+    background-position: right bottom;
+  }
+  .what .show-on-mobile {
+    display: none;
+  }
+  .what .illo {
+    display: block;
+    margin: 0;
+    position: absolute;
+  }
+  .what .illo.blue {
+    right: 470px;
+    top: 6px;
+  }
+  .what .illo.red {
+    right: 400px;
+    top: -90px;
+  }
+  .what .illo.white {
+    right: 60px;
+    bottom: -140px;
+  }
+  .what .illo.black {
+    right: 200px;
+    top: -80px;
+  }
+  .what .illo.purple {
+    right: -200px;
+    bottom: -180px;
+  }
+  .what .illo.illo-primary {
+    right: -100px;
+    top: 60px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

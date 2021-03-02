@@ -163,7 +163,7 @@ button {
   background-position: -50% bottom;
   background-repeat: no-repeat;
   color: $color-black;
-  padding-top: 24px;
+  padding-top: 96px;
   header {
     display: flex;
     justify-content: space-between;
@@ -239,7 +239,7 @@ button {
 .cta {
   padding-bottom: 0;
   background-color: $color-black;
-  background-image: url(/img/cta-bg.svg);
+  background-image: url(img/cta-bg.svg);
   background-position: -50% bottom;
   background-repeat: no-repeat;
   color: $color-white;
@@ -337,6 +337,20 @@ footer {
   }
 }
 
+.relay-down {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: $color-red;
+  text-align: center;
+  h3 {
+    font-size: 16px;
+    line-height: 2;
+    color: #fff;
+  }
+}
+
 
 @media screen and (min-width: 640px) {
 
@@ -353,7 +367,7 @@ footer {
 
   .what {
     background-position: 300px bottom;
-    padding: 48px 0;
+    padding: 128px 0 48px;
     .margins { position: relative; }
     header {
       margin-bottom: 64px;
@@ -428,7 +442,7 @@ footer {
   button { width: auto; }
 
   .what {
-    padding: 48px 0 96px;
+    padding: 128px 0 96px;
     background-position: right bottom;
     .button-lockup {
       img { display: block; }
